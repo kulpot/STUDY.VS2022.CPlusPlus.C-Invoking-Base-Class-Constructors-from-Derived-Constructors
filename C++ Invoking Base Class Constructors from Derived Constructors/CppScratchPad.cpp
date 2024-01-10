@@ -22,7 +22,7 @@ class Derived : public Base
 
 void main()
 {
-
+	Derived derived;	// error: no default Derived constructor
 }
 
 
