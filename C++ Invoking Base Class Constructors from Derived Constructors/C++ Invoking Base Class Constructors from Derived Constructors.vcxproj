@@ -24,6 +24,7 @@
     <ProjectGuid>{f1486106-e688-42bf-b217-6f08f3d55b59}</ProjectGuid>
     <RootNamespace>CInvokingBaseClassConstructorsfromDerivedConstructors</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>C++ InvkngBaseClssConstrctrsFrmDrivdCnstrctrs</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -18,6 +18,7 @@ public:
 class Derived : public Base
 {
 public:
+	//Derived() : Base(9) {}
 	Derived(int param) : Base(param) {}		// invoke Base constructor for Derived
 };
 
