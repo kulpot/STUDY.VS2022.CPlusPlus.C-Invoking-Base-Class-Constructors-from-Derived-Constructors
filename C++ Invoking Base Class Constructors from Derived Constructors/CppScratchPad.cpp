@@ -3,7 +3,7 @@
 #include <string>
 using std::cout;
 using std::endl;
-//using std::string;
+using std::string;
 using namespace std;
 
 // ----------------- C++ Invoking Base Class Constructors from Derived Constructors -----------------------------------
@@ -17,12 +17,13 @@ public:
 
 class Derived : public Base
 {
-
+public:
+	Derived(int param) : Base(9) {}		// invoke Base constructor for Derived
 };
 
 void main()
 {
-	Derived derived;	// error: no default Derived constructor
+	Derived derived;	// possible error: no default Derived constructor
 }
 
 
