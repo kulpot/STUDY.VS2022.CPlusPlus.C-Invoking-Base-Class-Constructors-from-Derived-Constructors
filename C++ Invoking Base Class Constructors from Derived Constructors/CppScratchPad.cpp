@@ -18,12 +18,13 @@ public:
 class Derived : public Base
 {
 public:
-	Derived(int param) : Base(9) {}		// invoke Base constructor for Derived
+	Derived(int param) : Base(param) {}		// invoke Base constructor for Derived
 };
 
 void main()
 {
-	Derived derived;	// possible error: no default Derived constructor
+	//Derived derived;	// possible error: no default Derived constructor
+	Derived derived(123123);
 }
 
 
